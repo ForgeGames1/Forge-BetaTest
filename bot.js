@@ -1,8 +1,9 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client({disableEveryone: true});
 
-client.on('ready', () => {
+client.on('ready', async () => {
     console.log('I am ready!');
+    client.user.setGame('I love ForgeGames');
 });
 
 client.on('message', message => {
