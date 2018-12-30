@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client({disableEveryone: true});
 
 client.on('ready', async () => {
-    console.log(`${bot.user.username} is online !`);
+    console.log("im am online !");
     client.user.setGame('I love ForgeGames');
 });
 
@@ -19,7 +19,6 @@ client.on('message', async message => {
         return message.channel.send("Hello !");
     }
 });
-
 
 
 
