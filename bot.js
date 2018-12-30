@@ -23,4 +23,4 @@ client.on('message', async message => {
 
 
 
-client.login('NTI4OTA4MTI1NzU1OTMyNjcz.DwpMjQ.fKwBVNSW80UjUmG0neZybcywBYY');
+client.login('NDA3MTgxODM4NjI5NDcwMjA4.DwpSXQ.F-32WnicHACQdrTYt5L6h-GS5iU');
