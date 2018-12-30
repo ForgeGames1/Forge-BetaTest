@@ -137,4 +137,4 @@ bot.on("ready", async () => {
   });
 
 
-bot.login('NDA3MTgxODM4NjI5NDcwMjA4.DwpSXQ.F-32WnicHACQdrTYt5L6h-GS5iU');
+bot.login('NTI4OTA4MTI1NzU1OTMyNjcz.Dwph8Q.EgL75tpCg9uEv8rd7b4MTHfLARY');
