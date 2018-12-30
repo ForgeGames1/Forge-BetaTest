@@ -1,9 +1,13 @@
+const botconfig = require('./botconfig.json');
 const Discord = require('discord.js');
-const client = new Discord.Client();
 
-client.on('ready', () => {
-    console.log('I am ready!');
+const bot = new Discord.Client({disableEveryone: true});
+
+
+bot.on('ready', async () =>{
+    console.log('${bot.user.username} is online !');
 });
+
 
 client.on('message', message => {
     if (message.content === 'ping') {
@@ -12,4 +16,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login('NTI4OTA4MTI1NzU1OTMyNjcz.DwpMjQ.fKwBVNSW80UjUmG0neZybcywBYY');
+bot.login(botconfig.token);
