@@ -37,7 +37,7 @@ bot.on("ready", async () => {
       .addField("Tiime", message.createdAt)
       .addField("Reason", kReason);
   
-      let kickChannel = message.guild.channels.find(`name`, "incidents");
+      let kickChannel = message.guild.channels.find(`id`, "528939421496770569");
       if(!kickChannel) return message.channel.send("Can't find incidents channel.");
   
       message.guild.member(kUser).kick(kReason);
@@ -137,4 +137,4 @@ bot.on("ready", async () => {
   });
 
 
-bot.login('NTI4OTA4MTI1NzU1OTMyNjcz.DwpjGQ.Y72ccnKX-hGP3DdA9DHtyhUUMJQ');
+bot.login('NTI4OTA4MTI1NzU1OTMyNjcz.Dwph8Q.EgL75tpCg9uEv8rd7b4MTHfLARY');
