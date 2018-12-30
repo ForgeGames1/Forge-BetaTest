@@ -18,5 +18,9 @@ bot.on('message', async message => {
     if(cmd === `${prefix}hello`){
         return message.channel.send("Hello !");
     }
+    if(cmd === `${prefix}test`){
+        return message.channel.send("t !");
+    }
 });
+
 client.login('NDA3MTgxODM4NjI5NDcwMjA4.DwpSXQ.F-32WnicHACQdrTYt5L6h-GS5iU');
