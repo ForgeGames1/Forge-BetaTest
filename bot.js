@@ -3,7 +3,7 @@ const bot = new Discord.Client({disableEveryone: true});
 
 bot.on('ready', async () => {
     console.log("im am online !");
-    bot.user.setGame('I love ForgeGames');
+    bot.user.setActivity("tutorials on TSC", {type: "WATCHING"});
 });
 
 bot.on('message', async message => {
