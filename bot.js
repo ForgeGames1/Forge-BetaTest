@@ -23,4 +23,5 @@ bot.on('message', async message => {
     }
 });
 
-client.login('NDA3MTgxODM4NjI5NDcwMjA4.DwpSXQ.F-32WnicHACQdrTYt5L6h-GS5iU');
+
+bot.login('NDA3MTgxODM4NjI5NDcwMjA4.DwpSXQ.F-32WnicHACQdrTYt5L6h-GS5iU');
