@@ -16,4 +16,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-bot.login(botconfig.token);
+bot.login('NTI4OTA4MTI1NzU1OTMyNjcz.DwpMjQ.fKwBVNSW80UjUmG0neZybcywBYY');
